@@ -17,7 +17,7 @@ function handlesubmit(){
         }
     });
     if(!containsCapital){
-        document.getElementById("results").innerHTML += "<br/>You need to have atleast 1 uppercase character";
+        document.getElementById("results").innerHTML += "<br/>You need to have atleast 1 uppercase characters";
     } 
     if(!(userinput.includes("!") || userinput.includes("@") || userinput.includes("#") || userinput.includes("$"))){
         document.getElementById("results").innerHTML += "<br/>You need to have one of these symbols (!@#$)";
