@@ -1,0 +1,37 @@
+body {
+font-family: Arial, Helvetica, sans-sarif;
+font-size: 20px;
+background : gray;
+}
+h1 {
+    text-align: center;
+    border: 5px solid black;
+    background-color: white;
+    color:black;
+}
+
+h2 {
+    text-align: center;
+}
+
+#maincontainer {
+    background-color: blue;
+    height: 100vh !important;
+    padding: 50px 50px;
+}
+
+#inputbox {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0 !important;
+    border: 0px !important;
+    font-size: 20px;
+}
+#submit{
+    margin-top: 20px;
+    width: 100%;
+    background-color:white;
+    height: 50px;
+    font-size: 20px;
+}
