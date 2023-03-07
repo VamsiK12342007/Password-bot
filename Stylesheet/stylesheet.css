@@ -11,7 +11,23 @@ h1 {
 }
 
 h2 {
+    color:white;
+    font-size: 20px;
     text-align: center;
+}
+
+h3 {
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+h4 {
+    border: 5px solid black;
+    text-align: center;
+    color: black;
+    background-color: white;
 }
 
 #maincontainer {
@@ -34,4 +50,11 @@ h2 {
     background-color:white;
     height: 50px;
     font-size: 20px;
+}
+
+#results {
+    color:White;
+    font-size: 50px;
+    text-align: center;
+    
 }
